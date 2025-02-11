@@ -1,33 +1,33 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        HashMap<Character, Integer> bucket = new HashMap<>();
-        int matches=0, windowStart=0;
-        boolean ans = false;
+        HashMap<Character, Integer> str = new HashMap<>();
+        int windowStart=0, matched=0;
         for(int i=0; i<s1.length(); i++){
-            bucket.put(s1.charAt(i), bucket.getOrDefault(s1.charAt(i), 0)+1);
+            str.put(s1.charAt(i), str.getOrDefault(s1.charAt(i), 0)+1);
         }
         for(int windowEnd=0; windowEnd<s2.length(); windowEnd++){
             char rc = s2.charAt(windowEnd);
-            if(bucket.containsKey(rc)){
-                bucket.put(rc, bucket.get(rc)-1);
-                if(bucket.get(rc)==0){
-                    matches++;
+            if(str.containsKey(rc)){
+                str.put(rc, str.get(rc)-1);
+                if(str.get(rc)==0){
+                    matched++;
                 }
             }
-            if(matches==bucket.size()){
+            if(matched==str.size()){
                 return true;
             }
             if(windowEnd>=s1.length()-1){
                 char lc = s2.charAt(windowStart);
-                if(bucket.containsKey(lc)){
-                    if(bucket.get(lc)==0){
-                        matches--;
-                    }
-                    bucket.put(lc, bucket.get(lc)+1);
-                }
                 windowStart++;
+                if(str.containsKey(lc)){
+                    if(str.get(lc)==0){
+                        matched--;
+                    }
+                    str.put(lc, str.get(lc)+1);
+                }
             }
+            
         }
-        return ans;
+        return false;
     }
 }
