@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/SriHariAvula/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/SriHariAvula/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/SriHariAvula/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/SriHariAvula/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -79,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/SriHariAvula/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/SriHariAvula/LeetCode/tree/master/0242-valid-anagram) |
 | [1019-squares-of-a-sorted-array](https://github.com/SriHariAvula/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
+## Math
+|  |
+| ------- |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/SriHariAvula/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 <!---LeetCode Topics End-->
