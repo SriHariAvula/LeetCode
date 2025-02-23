@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/SriHariAvula/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/SriHariAvula/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/SriHariAvula/LeetCode/tree/master/0217-contains-duplicate) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/SriHariAvula/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/SriHariAvula/LeetCode/tree/master/0792-binary-search) |
 | [0940-fruit-into-baskets](https://github.com/SriHariAvula/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/SriHariAvula/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/SriHariAvula/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/SriHariAvula/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/SriHariAvula/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/SriHariAvula/LeetCode/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/SriHariAvula/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
